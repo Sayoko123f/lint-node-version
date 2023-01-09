@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Sayoko123f/lint-node-version/compare/v1.0.1...v1.0.2) (2023-01-09)
+
+
+### 修復問題
+
+* version ([f5f6087](https://github.com/Sayoko123f/lint-node-version/commit/f5f6087426470ba2283c490cc61101327687718e))
+
 ## [1.0.1](https://github.com/Sayoko123f/lint-node-version/compare/v1.0.0...v1.0.1) (2023-01-09)
 
 
