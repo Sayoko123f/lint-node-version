@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Sayoko123f/lint-node-version/compare/v1.0.2...v1.0.3) (2023-01-09)
+
+
+### 修復問題
+
+* fix command ([cc26375](https://github.com/Sayoko123f/lint-node-version/commit/cc263755558a8c339a45c472f2fe9ca3ac33d511))
+
 ## [1.0.2](https://github.com/Sayoko123f/lint-node-version/compare/v1.0.1...v1.0.2) (2023-01-09)
 
 
