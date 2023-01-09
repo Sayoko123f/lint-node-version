@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "lint node version",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
-    "lint:nodeversion": "node index.js"
+    "lint-node-version": "node index.js"
   },
   "author": "sayoko123f",
   "license": "MIT",
