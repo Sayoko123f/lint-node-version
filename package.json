@@ -1,0 +1,21 @@
+{
+  "name": "@sayoko123f/lint-node-version",
+  "version": "1.0.0",
+  "description": "lint node version",
+  "main": "index.js",
+  "scripts": {
+    "lint:nodeversion": "node index.js"
+  },
+  "author": "sayoko123f",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "semantic-release": "^19.0.5"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "semver": "^7.3.8"
+  }
+}

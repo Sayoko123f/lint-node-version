@@ -1,0 +1,114 @@
+{
+  "branches": "master",
+  "dryRun": false,
+  "ci": false,
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "releaseRules": [
+          {
+            "type": "feat",
+            "release": "minor"
+          },
+          {
+            "type": "fix",
+            "release": "patch"
+          },
+          {
+            "type": "refactor",
+            "release": "patch"
+          },
+          {
+            "type": "pref",
+            "release": "patch"
+          },
+          {
+            "type": "docs",
+            "release": "patch"
+          },
+          {
+            "type": "test",
+            "release": false
+          },
+          {
+            "type": "style",
+            "release": false
+          },
+          {
+            "type": "build",
+            "release": "minor"
+          },
+          {
+            "type": "chore",
+            "release": "patch"
+          }
+        ]
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits",
+        "presetConfig": {
+          "types": [
+            {
+              "type": "feat",
+              "section": "功能",
+              "hidden": false
+            },
+            {
+              "type": "fix",
+              "section": "修復問題",
+              "hidden": false
+            },
+            {
+              "type": "docs",
+              "section": "文件",
+              "hidden": false
+            },
+            {
+              "type": "style",
+              "section": "程式碼風格",
+              "hidden": false
+            },
+            {
+              "type": "refactor",
+              "section": "重構",
+              "hidden": false
+            },
+            {
+              "type": "perf",
+              "section": "性能優化",
+              "hidden": false
+            },
+            {
+              "type": "test",
+              "section": "測試",
+              "hidden": false
+            },
+            {
+              "type": "ci",
+              "section": "CI",
+              "hidden": false
+            },
+            {
+              "type": "chore",
+              "section": "其它",
+              "hidden": false
+            }
+          ]
+        }
+      }
+    ],
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    [
+      "@semantic-release/git",
+      {
+        "message": "chore(release): ${nextRelease.version} ***NO_CI***\n\n${nextRelease.notes}"
+      }
+    ]
+  ]
+}
+
