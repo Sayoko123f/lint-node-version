@@ -7,8 +7,8 @@ npm install -g @sayoko123f/lint-node-version
 ```json
 {
     "scripts":{
-        "preinstall": "lint:nodeversion",
-        "prestart": "lint:nodeversion"
+        "preinstall": "lint-node-version",
+        "prestart": "lint-node-version"
     }
 }
 ```
