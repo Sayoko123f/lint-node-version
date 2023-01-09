@@ -8,6 +8,17 @@
   },
   "author": "sayoko123f",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sayoko123f/lint-node-version.git"
+  },
+  "homepage": "https://github.com/Sayoko123f/lint-node-version",
+  "bugs": {
+    "url": "https://github.com/Sayoko123f/lint-node-version/issues"
+  },
+  "keywords": [
+    "node"
+  ],
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
