@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Sayoko123f/lint-node-version/compare/v1.0.3...v1.0.4) (2023-01-09)
+
+
+### 修復問題
+
+* try support MacOS ([b5679ce](https://github.com/Sayoko123f/lint-node-version/commit/b5679ce5725c42202561d655576c1a59a35784e5))
+
 ## [1.0.3](https://github.com/Sayoko123f/lint-node-version/compare/v1.0.2...v1.0.3) (2023-01-09)
 
 
